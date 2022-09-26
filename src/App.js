@@ -48,10 +48,10 @@ console.log(data);
       Corona Virus Tracking
     </div>
      <FormGroup className='d-flex justify-content-center mt-5'>
-    <Label for="exampleSelect" className='fw-bold me-3 mt-2 display-6'>
+    <Label for="exampleSelect" className='fw-bold me-3 mt-2'>
       Select A Country
     </Label>
-    <Input style={{width:'350px'}}
+    <Input style={{width:'200px'}}
       onChange={selectVal}
       id="exampleSelect"
       name="select"
